@@ -12,6 +12,7 @@ dependencies = [
     "requests (>=2.32.5,<3.0.0)",
     "pandas (>=2.3.2,<3.0.0)",
     "self (>=2020.12.3,<2021.0.0)",
+    "pytest (>=8.4.2,<9.0.0)",
 ]
 
 
@@ -25,11 +26,10 @@ mypy = "^1.17.1"
 black = "^25.1.0"
 isort = "^6.1.0"
 
-
-
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 pytest-cov = "^6.2.1"
+
 
 [tool.mypy]
 disallow_untyped_defs = true
