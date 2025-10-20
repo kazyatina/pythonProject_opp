@@ -21,7 +21,10 @@ class Product:
     @price.setter
     def price(self, price):
         """Setter, который проверяет цену на положительность, возвращает вывод с ошибкой"""
-        self.__price = price if price > 0 else print("Цена не должна быть нулевая или отрицательная")
+        if price <= 0:
+            print("Цена не должна быть нулевая или отрицательная")
+        else:
+            self.__price = price
 
     @classmethod
     def new_product(cls, product):
