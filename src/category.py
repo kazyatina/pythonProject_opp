@@ -20,7 +20,11 @@ class Category:
 
     def __str__(self):
         """Метод для строкового вывода экземпляра класса."""
-        return f"{self.name}, количество продуктов: {len(self.__products)} шт."
+        goods_count = 0
+        for product in self.__products:
+            goods_count += product.quantity
+        return f"{self.name}, количество продуктов: {goods_count} шт."
+
 
     @property
     def products(self):
