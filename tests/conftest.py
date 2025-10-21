@@ -1,6 +1,7 @@
 import pytest
 
 from src.category import Category
+from src.iterator import Iterator
 from src.product import Product
 
 
@@ -39,3 +40,23 @@ def product():
 @pytest.fixture
 def new_product():
     return Product("Xiaomi Redmi 15", "2024GB, Синий", 61000.0, 10)
+
+
+@pytest.fixture
+def total_price_1():
+    return Product("Xiaomi Redmi 15", "2024GB, Синий", 61000.0, 10)
+
+
+@pytest.fixture
+def total_price_2():
+    return Product("Xiaomi Mi 5", "1024GB, Синий", 9000.0, 10)
+
+
+@pytest.fixture
+def iter_product(object_one):
+    return Iterator(object_one)
+
+
+@pytest.fixture
+def wrong_product():
+    return "Banana"
