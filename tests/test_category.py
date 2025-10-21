@@ -45,7 +45,7 @@ def test_new_product(object_one, new_product) -> None:
 
 
 def test_category_str(object_one):
-    assert str(object_one) == "Смартфоны, количество продуктов: 3 шт."
+    assert str(object_one) == "Смартфоны, количество продуктов: 27 шт."
 
 
 def test_iterator(iter_product):
