@@ -18,12 +18,20 @@ class Category:
         Category.category_count += 1
         Category.product_count += len(products) if products else 0
 
+    def __str__(self):
+        """Метод для строкового вывода экземпляра класса."""
+        goods_count = 0
+        for product in self.__products:
+            goods_count += product.quantity
+        return f"{self.name}, количество продуктов: {goods_count} шт."
+
+
     @property
     def products(self):
         """Getter, который возвращает строку, информацию по продуктам"""
         prod_list = ""
         for pl in self.__products:
-            prod_list += f"{pl.name}, {pl.price} руб. Остаток: {pl.quantity} шт.\n"
+            prod_list += f"{str(pl)}\n"
         return prod_list
 
     @property

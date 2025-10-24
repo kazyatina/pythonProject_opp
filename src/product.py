@@ -5,6 +5,7 @@ class Product:
     description: str
     price: float
     quantity: int
+    total_price: float
 
     def __init__(self, name, description, price, quantity):
         """Метод для инициализации экземпляра класса. Задаем значения атрибутам экземпляра."""
@@ -12,6 +13,17 @@ class Product:
         self.description = description
         self.__price = price
         self.quantity = quantity
+        self.total_price = self.price * self.quantity
+
+    def __str__(self):
+        """Метод для строкового вывода экземпляра класса."""
+        return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
+
+    def __add__(self, other):
+        """Метод для сложения общей цены для продуктов (цена*кол-во)."""
+        if not isinstance(other, Product):
+            raise TypeError(f"Ожидался Product, а получен {type(other).__name__}")
+        return self.total_price + other.total_price
 
     @property
     def price(self):
@@ -28,7 +40,7 @@ class Product:
 
     @classmethod
     def new_product(cls, product):
-        """Добавление нового продукта в класс Product"""
+        """Метод для добавления нового продукта в класс Product"""
         name = product["name"]
         description = product["description"]
         price = product["price"]
