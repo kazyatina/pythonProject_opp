@@ -7,6 +7,7 @@ from src.product import Product
 
 
 def test_category_init(object_one, object_two):
+    """Тест на инициализацию"""
     assert object_one.name == "Смартфоны"
     assert (
         object_one.description
@@ -29,6 +30,7 @@ def test_category_init(object_one, object_two):
 
 
 def test_property_products(object_one):
+    """Тест на Getter, который возвращает строку, информацию по продуктам"""
     assert object_one.products == (
         "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n"
         "Iphone 15, 210000.0 руб. Остаток: 8 шт.\n"
@@ -45,10 +47,12 @@ def test_new_product(object_one, new_product) -> None:
 
 
 def test_category_str(object_one):
+    """Тест для строкового вывода экземпляра класса"""
     assert str(object_one) == "Смартфоны, количество продуктов: 27 шт."
 
 
 def test_iterator(iter_product):
+    """Тесты на итерацию объекта"""
     assert iter_product.index == 0
     assert next(iter_product).name == "Samsung Galaxy S23 Ultra"
     assert next(iter_product).name == "Iphone 15"
@@ -74,3 +78,15 @@ class TestCategory(unittest.TestCase):
 
         # Убедимся, что количество продуктов увеличилось на 1
         self.assertEqual(Category.product_count, initial_count + 1)
+
+    def test_add_product_valid_product(self):
+        """Проверяем, что продукт корректно добавляется, если передан объект Product."""
+        initial_count = Category.product_count
+        product = Product("test", "test", 10, 2)
+        self.category.add_product(product)
+        self.assertEqual(Category.product_count, initial_count + 1)
+
+    def test_add_product_invalid_product(self):
+        """Проверяем, что выбрасывается исключение TypeError при попытке добавить некорректный тип."""
+        with self.assertRaises(TypeError):
+            self.category.add_product("Не продукт")
