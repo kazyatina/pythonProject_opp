@@ -25,7 +25,6 @@ class Category:
             goods_count += product.quantity
         return f"{self.name}, количество продуктов: {goods_count} шт."
 
-
     @property
     def products(self):
         """Getter, который возвращает строку, информацию по продуктам"""
@@ -41,5 +40,8 @@ class Category:
 
     def add_product(self, product: Product):
         """Метод для добавления продукта в категорию."""
-        self.__products.append(product)
-        Category.product_count += 1
+        if isinstance(product, Product):
+            self.__products.append(product)
+            Category.product_count += 1
+        else:
+            raise TypeError

@@ -21,9 +21,9 @@ class Product:
 
     def __add__(self, other):
         """Метод для сложения общей цены для продуктов (цена*кол-во)."""
-        if not isinstance(other, Product):
-            raise TypeError(f"Ожидался Product, а получен {type(other).__name__}")
-        return self.total_price + other.total_price
+        if type(other) is Product:
+            return self.total_price + other.total_price
+        raise TypeError(f"Ожидался Product, а получен {type(other).__name__}")
 
     @property
     def price(self):
@@ -46,17 +46,3 @@ class Product:
         price = product["price"]
         quantity = product["quantity"]
         return cls(name, description, price, quantity)
-
-
-# if __name__ == '__main__':
-#     prod_obj_1 = Product.new_product('Phone', 'Xiomi', 25000, 10)
-#     print(prod_obj_1.name)
-#     print(prod_obj_1.description)
-#     print(prod_obj_1.price)
-#     print(prod_obj_1.quantity)
-#
-#     prod_obj = Product.new_product('Phone', 'LFKjkjdf', 123454, 4)
-#     print(prod_obj.name)
-#     print(prod_obj.description)
-#     print(prod_obj.price)
-#     print(prod_obj.quantity)
