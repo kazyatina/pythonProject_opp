@@ -2,7 +2,7 @@ import unittest
 
 import pytest
 
-from src.category import Category
+from src.category import Category, Order
 from src.product import Product
 
 
@@ -90,3 +90,25 @@ class TestCategory(unittest.TestCase):
         """Проверяем, что выбрасывается исключение TypeError при попытке добавить некорректный тип."""
         with self.assertRaises(TypeError):
             self.category.add_product("Не продукт")
+
+def test_order_abs_category(fix_category: Category) -> None:
+    """
+    Тестирование переопределения метода str
+    """
+    product1 = Product("Продукт1", "Описание продукта", 1200, 10)
+    product2 = Product("Продукт2", "Описание продукта", 800, 5)
+
+    # Создание категории и добавление продуктов
+    category = Category("Категория1", "Описание категории", [])
+    category.add_product(product1)
+    category.add_product(product2)
+    print(category)
+
+    order = Order(product1)
+    assert str(order) == "Продукт1"
+    assert order.get_total_cost() == 12000
+
+    order.add_product(product2)
+
+    with pytest.raises(ValueError):
+        order.add_product("Не продукт")
