@@ -8,21 +8,24 @@ class BaseProduct(ABC):
 
     @classmethod
     @abstractmethod
-    def new_product(cls, product) -> Any: ...
+    def new_product(cls, product) -> Any:
+        pass
 
     @abstractmethod
     def __str__(self):
         pass
 
+
 class MixinPrint:
     """
     Миксин класс который при инициализации показывает в консоль имя класса и его аттрибуты
     """
+
     def __init__(self):
         print(repr(self))
 
     def __repr__(self):
-        return f'{self.__class__.__name__}, {self.name}, {self.description}, {self.price}, {self.quantity}'
+        return f"{self.__class__.__name__}, {self.name}, {self.description}, {self.price}, {self.quantity}"
 
 
 class Product(BaseProduct, MixinPrint):

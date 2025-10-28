@@ -10,9 +10,12 @@ class BaseCategory(ABC):
     """
 
     @abstractmethod
-    def add_product(self, product: Any) -> Any: ...
+    def add_product(self, product: Any) -> Any:
+        pass
 
-    def get_total_cost(self) -> Any: ...
+    def get_total_cost(self) -> Any:
+        pass
+
 
 class Category:
     """Класс для создания категорий"""
