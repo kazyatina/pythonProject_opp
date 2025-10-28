@@ -17,25 +17,29 @@ ___
 - read_json - с функцией чтения json-файла с категориями
 ___
 ## Классы
-- class Category в модуле category для создания категорий
+- class BaseCategory - Абстрактный класс с перечислением методов для класса Category и его дочерних классов.
+- class BaseProduct - Абстрактный класс указывает на то, что абстрактные методы должны реализоваться во всех
+    наследованных классах.
+- class MixinPrint - Миксин класс который при инициализации показывает в консоль имя класса и его аттрибуты.
+- class Category (наследник BaseCategory)
   с атрибутами name: str,
       description: str,
       products: list,
       category_count = 0,
       product_count = 0.
-- class Product (базовый) в модуле product для создания продуктов в Категориях
+- class Product (наследник BaseProduct и MixinPrint) 
     с атрибутами 
     name: str,
     description: str,
     price: float,
     quantity: int.
 - class Iterator - для итерации объектов
-- class Smartphone(наследник класса Product)
+- class Smartphone(наследник Product)
     efficiency: float,
     model: str,
     memory: int,
     color: str.
-- class LawnGrass(наследник класса Product)
+- class LawnGrass(наследник Product)
     country: str,
     germination_period: str,
     color: str.
