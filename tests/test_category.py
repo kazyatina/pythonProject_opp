@@ -91,10 +91,9 @@ class TestCategory(unittest.TestCase):
         with self.assertRaises(TypeError):
             self.category.add_product("Не продукт")
 
+
 def test_order_abs_category(fix_category: Category) -> None:
-    """
-    Тестирование переопределения метода str
-    """
+    """Тестирование переопределения метода str"""
     product1 = Product("Продукт1", "Описание продукта", 1200, 10)
     product2 = Product("Продукт2", "Описание продукта", 800, 5)
 
