@@ -1,4 +1,34 @@
-class Product:
+from abc import ABC, abstractmethod
+from typing import Any
+
+
+class BaseProduct(ABC):
+    """Абстрактный класс указывает на то, что абстрактные методы должны реализоваться во всех
+    наследованных классах."""
+
+    @classmethod
+    @abstractmethod
+    def new_product(cls, product) -> Any:
+        pass
+
+    @abstractmethod
+    def __str__(self):
+        pass
+
+
+class MixinPrint:
+    """
+    Миксин класс который при инициализации показывает в консоль имя класса и его аттрибуты
+    """
+
+    def __init__(self):
+        print(repr(self))
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}, {self.name}, {self.description}, {self.price}, {self.quantity}"
+
+
+class Product(BaseProduct, MixinPrint):
     """Класс для создания продуктов в Категориях"""
 
     name: str
@@ -14,6 +44,7 @@ class Product:
         self.__price = price
         self.quantity = quantity
         self.total_price = self.price * self.quantity
+        super().__init__()
 
     def __str__(self):
         """Метод для строкового вывода экземпляра класса."""

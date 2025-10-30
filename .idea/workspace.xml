@@ -1,30 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eeae586-d4d2-4b6b-91bd-08e809099aa2" name="Changes" comment="" />
+    <list default="true" id="1eeae586-d4d2-4b6b-91bd-08e809099aa2" name="Changes" comment="обновлен html отчет" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kazyatina&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kazyatina/pythonProject_opp.git&quot;,
+    &quot;accountId&quot;: &quot;de9458d9-9832-4485-89e9-e9deb2acd975&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="33xxzG4QMN8GEU8IRQ3S4rakDew" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_category.TestCategory.test_add_product_increases_product_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.TestCategory.test_add_product_stores_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.TestCategory2.test_add_product_invalid_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.TestCategory2.test_add_product_valid_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_add_product_increases_product_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_add_product_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_iter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_new_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_product_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_property.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_property_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_add_grass.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_add_smart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_add_wrong_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_add_wrong_type_grass.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_add_wrong_type_grass2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_add_wrong_type_smart2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_grass_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cls_heritage.test_smart_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.TestProduct.test_new_product_class_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.TestProduct.test_set_price_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.TestProduct.test_set_price_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_new_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_price_null.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_products_add_wrong_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_setter_price.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_read_json.TestDataProcessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_read_json.test_read_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_category.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_product.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Category.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_json.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/HW__16__1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/79853/PycharmProjects/pythonProject_opp&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79853\PycharmProjects\pythonProject_opp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79853\PycharmProjects\pythonProject_opp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.read_json">
+    <configuration name="Category" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_opp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Category.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_opp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Product.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_opp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/read_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_category.test_category_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_opp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_category.test_category_init&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_category.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_opp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_category.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_category.py" />
+        <item itemvalue="Python tests.Python tests for test_category.test_category_init" />
+        <item itemvalue="Python.read_json" />
+        <item itemvalue="Python.Product" />
+        <item itemvalue="Python.Category" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +230,297 @@
       <option name="presentableId" value="Default" />
       <updated>1760272784113</updated>
     </task>
+    <task id="LOCAL-00001" summary="установочные файлы">
+      <option name="closed" value="true" />
+      <created>1760545193774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760545193774</updated>
+    </task>
+    <task id="LOCAL-00002" summary="создан readme.md">
+      <option name="closed" value="true" />
+      <created>1760546397718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760546397718</updated>
+    </task>
+    <task id="LOCAL-00003" summary="создан readme.md">
+      <option name="closed" value="true" />
+      <created>1760546505809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760546505809</updated>
+    </task>
+    <task id="LOCAL-00004" summary="обновлены файлы readme.md и pyproject.toml">
+      <option name="closed" value="true" />
+      <created>1760558475292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760558475292</updated>
+    </task>
+    <task id="LOCAL-00005" summary="созданы вспомогательные файлы">
+      <option name="closed" value="true" />
+      <created>1760558518824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760558518824</updated>
+    </task>
+    <task id="LOCAL-00006" summary="созданы классы и функция чтения json файла">
+      <option name="closed" value="true" />
+      <created>1760558579696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760558579696</updated>
+    </task>
+    <task id="LOCAL-00007" summary="созданы тесты">
+      <option name="closed" value="true" />
+      <created>1760558597265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760558597265</updated>
+    </task>
+    <task id="LOCAL-00008" summary="html отчет">
+      <option name="closed" value="true" />
+      <created>1760631006417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760631006417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="перенос main в корень, добавлен проверочный код в main">
+      <option name="closed" value="true" />
+      <created>1760631313298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760631313298</updated>
+    </task>
+    <task id="LOCAL-00010" summary="добавлены геттеры, сеттеры и класс-метод">
+      <option name="closed" value="true" />
+      <created>1760727918621</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760727918621</updated>
+    </task>
+    <task id="LOCAL-00011" summary="добавлены тесты на геттеры, сеттеры и класс-метод">
+      <option name="closed" value="true" />
+      <created>1760727957521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760727957521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="обновлен проверочный код в main.py">
+      <option name="closed" value="true" />
+      <created>1760727986836</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760727986836</updated>
+    </task>
+    <task id="LOCAL-00013" summary="обновлен README.md">
+      <option name="closed" value="true" />
+      <created>1760728007210</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760728007210</updated>
+    </task>
+    <task id="LOCAL-00014" summary="обновлен html отчет">
+      <option name="closed" value="true" />
+      <created>1760728034641</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760728034641</updated>
+    </task>
+    <task id="LOCAL-00015" summary="корректировка сеттера price">
+      <option name="closed" value="true" />
+      <created>1760976560797</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760976560797</updated>
+    </task>
+    <task id="LOCAL-00016" summary="создан итератор">
+      <option name="closed" value="true" />
+      <created>1761071286763</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761071286763</updated>
+    </task>
+    <task id="LOCAL-00017" summary="добавлены магические методы">
+      <option name="closed" value="true" />
+      <created>1761071328577</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761071328577</updated>
+    </task>
+    <task id="LOCAL-00018" summary="добавлены тесты на магические методы">
+      <option name="closed" value="true" />
+      <created>1761071352061</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761071352061</updated>
+    </task>
+    <task id="LOCAL-00019" summary="обновлен README.md">
+      <option name="closed" value="true" />
+      <created>1761071373367</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761071373367</updated>
+    </task>
+    <task id="LOCAL-00020" summary="обновлен html отчет">
+      <option name="closed" value="true" />
+      <created>1761071400625</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1761071400625</updated>
+    </task>
+    <task id="LOCAL-00021" summary="исправлен метод str в классе Category">
+      <option name="closed" value="true" />
+      <created>1761075704321</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761075704321</updated>
+    </task>
+    <task id="LOCAL-00022" summary="исправлен тест на метод str в классе Category">
+      <option name="closed" value="true" />
+      <created>1761075739575</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761075739575</updated>
+    </task>
+    <task id="LOCAL-00023" summary="обновлен README.md">
+      <option name="closed" value="true" />
+      <created>1761322680434</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1761322680434</updated>
+    </task>
+    <task id="LOCAL-00024" summary="описаны классы-наследники">
+      <option name="closed" value="true" />
+      <created>1761330964709</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1761330964709</updated>
+    </task>
+    <task id="LOCAL-00025" summary="написаны тесты для классов-наследников">
+      <option name="closed" value="true" />
+      <created>1761330992677</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1761330992677</updated>
+    </task>
+    <task id="LOCAL-00026" summary="добавлены проверки на тип объекта и класс объекта">
+      <option name="closed" value="true" />
+      <created>1761331056783</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1761331056783</updated>
+    </task>
+    <task id="LOCAL-00027" summary="добавлены тесты на проверку на тип объекта и класс объекта">
+      <option name="closed" value="true" />
+      <created>1761331084661</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761331084661</updated>
+    </task>
+    <task id="LOCAL-00028" summary="обновлен main">
+      <option name="closed" value="true" />
+      <created>1761331105324</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761331105324</updated>
+    </task>
+    <task id="LOCAL-00029" summary="обновлен README.md">
+      <option name="closed" value="true" />
+      <created>1761331121790</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1761331121790</updated>
+    </task>
+    <task id="LOCAL-00030" summary="обновлен html отчет">
+      <option name="closed" value="true" />
+      <created>1761331140578</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1761331140578</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/HW_14_1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="установочные файлы" />
+    <MESSAGE value="создан readme.md" />
+    <MESSAGE value="обновлены файлы readme.md и pyproject.toml" />
+    <MESSAGE value="созданы вспомогательные файлы" />
+    <MESSAGE value="созданы классы и функция чтения json файла" />
+    <MESSAGE value="созданы тесты" />
+    <MESSAGE value="html отчет" />
+    <MESSAGE value="перенос main в корень, добавлен проверочный код в main" />
+    <MESSAGE value="добавлены геттеры, сеттеры и класс-метод" />
+    <MESSAGE value="добавлены тесты на геттеры, сеттеры и класс-метод" />
+    <MESSAGE value="обновлен проверочный код в main.py" />
+    <MESSAGE value="корректировка сеттера price" />
+    <MESSAGE value="создан итератор" />
+    <MESSAGE value="добавлены магические методы" />
+    <MESSAGE value="добавлены тесты на магические методы" />
+    <MESSAGE value="исправлен метод str в классе Category" />
+    <MESSAGE value="исправлен тест на метод str в классе Category" />
+    <MESSAGE value="описаны классы-наследники" />
+    <MESSAGE value="написаны тесты для классов-наследников" />
+    <MESSAGE value="добавлены проверки на тип объекта и класс объекта" />
+    <MESSAGE value="добавлены тесты на проверку на тип объекта и класс объекта" />
+    <MESSAGE value="обновлен main" />
+    <MESSAGE value="обновлен README.md" />
+    <MESSAGE value="обновлен html отчет" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновлен html отчет" />
   </component>
 </project>

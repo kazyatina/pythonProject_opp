@@ -26,6 +26,7 @@ class Smartphone(Product):
 
 class LawnGrass(Product):
     """Класс-наследник"""
+
     country: str
     germination_period: str
     color: str

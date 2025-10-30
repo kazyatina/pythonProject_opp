@@ -1,4 +1,20 @@
+from abc import ABC, abstractmethod
+from typing import Any
+
 from src.product import Product
+
+
+class BaseCategory(ABC):
+    """
+    Абстрактный класс с перечислением методов для класса Category и его дочерних классов
+    """
+
+    @abstractmethod
+    def add_product(self, product: Any) -> Any:
+        pass
+
+    def get_total_cost(self) -> Any:
+        pass
 
 
 class Category:
@@ -45,3 +61,26 @@ class Category:
             Category.product_count += 1
         else:
             raise TypeError
+
+
+class Order(BaseCategory):
+    """
+    Класс "Заказ", который наследуется от абстрактного класса и получает общие абстрактные методы
+    """
+
+    def __init__(self, product: Any) -> None:
+        self.product = product
+
+    def add_product(self, product: Any) -> None:
+        """Абстрактный метод для добавления нового продукта в заказ"""
+        if not isinstance(product, Product):
+            raise ValueError("Объект не является экземпляром класса Product.")
+        self.product = product
+
+    def get_total_cost(self) -> Any:
+        """Абстрактный метод для получения общей стоимости заказа"""
+        return self.product.price * self.product.quantity
+
+    def __str__(self) -> str:
+        product: Product = self.product
+        return product.name

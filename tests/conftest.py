@@ -81,3 +81,20 @@ def lawn_grass_1():
 @pytest.fixture
 def lawn_grass_2():
     return LawnGrass("Газонная трава 2", "Выносливая трава", 450.0, 15, "США", "5 дней", "Темно-зеленый")
+
+
+@pytest.fixture
+def fix_category() -> Category:
+    """
+    Фикстура для Category
+    :return: Category
+    """
+    product1 = Product("Samsung Galaxy S23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
+    product2 = Product("Apple iPhone 14 Pro", "128GB, Золотой цвет, 48MP камера", 120000.0, 10)
+    product3 = Product("Google Pixel 7 Pro", "128GB, Белый цвет, 50MP камера", 90000.0, 7)
+    category1 = Category(
+        "Смартфоны",
+        "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+        [product1, product2, product3],
+    )
+    return category1
