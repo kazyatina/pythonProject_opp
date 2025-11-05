@@ -93,7 +93,7 @@ class TestCategory(unittest.TestCase):
 
 
 def test_order_abs_category(fix_category: Category) -> None:
-    """Тестирование переопределения метода str"""
+    """Тестирование добавления нового заказа"""
     product1 = Product("Продукт1", "Описание продукта", 1200, 10)
     product2 = Product("Продукт2", "Описание продукта", 800, 5)
 
@@ -111,3 +111,36 @@ def test_order_abs_category(fix_category: Category) -> None:
 
     with pytest.raises(ValueError):
         order.add_product("Не продукт")
+
+
+def test_custom_exception(capsys, object_one):
+    """Тест пользовательских исключений"""
+    assert len(object_one.prod_in_list) == 3
+
+    # product_invalid = Product("Бракованный товар", "Неверное количество", 1000.0, 0)
+    # object_one.add_product += product_invalid
+    # message = capsys.readouterr()
+    # assert message.out.strip().split('\n')[-2] == 'Товар с нулевым количеством не может быть добавлен'
+    # assert message.out.strip().split('\n')[-1] == 'Обработка добавления товара завершена.'
+
+    product_valid = Product("Бракованный товар", "Неверное количество", 1000.0, 1)
+    object_one.prod_in_list = product_valid
+    message = capsys.readouterr()
+    assert message.out.strip().split("\n")[-2] == "Товар добавлен."
+    assert message.out.strip().split("\n")[-1] == "Обработка добавления товара завершена."
+
+
+def test_middle_price_category() -> None:
+    """
+    Тестирование средней цены
+    """
+    category = Category("Категория 1", "Описание 1", [])
+    middle_price = category.middle_price()
+    assert middle_price == 0
+
+
+def test_mid_price(object_one):
+    """
+    Тестирование средней цены
+    """
+    assert object_one.middle_price() == 140333.3

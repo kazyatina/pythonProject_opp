@@ -98,3 +98,8 @@ def fix_category() -> Category:
         [product1, product2, product3],
     )
     return category1
+
+
+@pytest.fixture
+def no_quantity():
+    return Category("Электроника", "Гаджеты", [])
